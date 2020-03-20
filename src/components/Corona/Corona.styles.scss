@@ -1,0 +1,36 @@
+.corona-body {
+    color: ivory;
+    background-color: #010124;
+}
+
+h2 {
+    font-size: 2.2rem;
+    padding-top: 5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.table-head {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+table {
+    margin: 10px auto 0 auto;
+    width: 480px;
+
+    thead td {
+        padding-top: 1.6rem;
+        font-size: 2rem;
+        color: #d4af37;
+        text-align: center;
+    }
+
+    tbody td {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
