@@ -32,11 +32,11 @@ class Corona extends Component {
                 });
             }
         )
-        
     }
 
     render() {
         const { items } = this.state;
+        const newItems = items.slice(0, 25);
 
         return (
             <div className="corona-body">
@@ -48,7 +48,7 @@ class Corona extends Component {
                         <td className="deaths-col">Deaths</td>
                     </thead>
                     <tbody>
-                        {items.map(item => (
+                        {newItems.map(item => (
                             <tr key={item.country_name}>
                                 <td>{item.country_name}</td>
                                 <td>{item.cases}</td>
